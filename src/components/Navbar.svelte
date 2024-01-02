@@ -33,7 +33,7 @@
   };
 </script>
 
-<nav class="fixed top-0 left-0 right-0 bg-neutral-900 text-white py-4">
+<nav class="fixed top-0 left-0 right-0 bg-neutral-900 text-white py-4 w-full max-w-96 mx-auto mt-3 rounded-full">
   <style>
     nav ul {
       display: flex;
@@ -80,7 +80,7 @@
   </style>
 
   <ul>
-    <li><a href="#" on:click|preventDefault={() => scrollToSection('header')} class:active={activeSection === 'header'}>Header</a></li>
+    <li><a href="#" on:click|preventDefault={() => scrollToSection('header')} class:active={activeSection === 'header'}>About</a></li>
     <li><a href="#" on:click|preventDefault={() => scrollToSection('skills')} class:active={activeSection === 'skills'}>Skills</a></li>
     <li><a href="#" on:click|preventDefault={() => scrollToSection('projects')} class:active={activeSection === 'projects'}>Projects</a></li>
     <li><a href="#" on:click|preventDefault={() => scrollToSection('experience')} class:active={activeSection === 'experience'}>Experience</a></li>
