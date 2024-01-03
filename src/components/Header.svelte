@@ -9,7 +9,7 @@
   <div class="w-full">
     <div class="flex flex-col items-center px-4 w-full mb-10">
       <img
-        src="/portrait.jpg"
+        src="/portrait.png"
         alt="Hugh's portrait"
         class="max-w-72 mb-5 rounded-full"
       />

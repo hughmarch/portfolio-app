@@ -19,7 +19,7 @@
       title: "DubMaps",
       skills: ["React", "Google Cloud Platform", "Google Maps API", "Firebase"],
       description:
-        "DubMaps finds wheelchair-accessible routes between UW campus buildings. Won Best Use of Google Cloud from over 100 hackathon teams.",
+        "DubMaps finds wheelchair-accessible routes between UW campus buildings. Won Best Use of Google Cloud at DubHacks 2022 from over 100 hackathon teams.",
       link: "https://devpost.com/software/dubmaps-bdn3sh",
       image: "/dubmaps.jpg",
     },
@@ -90,6 +90,15 @@
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {project.description}
           </p>
+
+          <div class="flex flex-wrap justify-start mb-5">
+            {#each project.skills as skill}
+              <button
+                class="bg-gray-700 px-2 py-1 text-sm text-white inline-flex items-center space-x-2 rounded hover:border-none border-none transition-colors duration-300 mr-2 mb-2">
+                <p>{skill}</p>
+              </button>
+            {/each}
+          </div>
         </div>
       </a>
     {/each}
