@@ -12,8 +12,11 @@
     "@sveltejs/kit": "^2.0.6",
     "@sveltejs/vite-plugin-svelte": "^3.0.1",
     "autoprefixer": "^10.4.16",
+    "eslint-config-prettier": "^9.1.0",
     "postcss": "^8.4.32",
     "postcss-load-config": "^5.0.2",
+    "prettier": "^3.1.1",
+    "prettier-plugin-svelte": "^3.1.2",
     "svelte": "^4.2.8",
     "tailwindcss": "^3.3.6",
     "vite": "^5.0.8"
