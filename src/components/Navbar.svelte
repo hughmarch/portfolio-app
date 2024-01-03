@@ -34,7 +34,7 @@
 </script>
 
 <nav
-  class="fixed top-0 left-0 right-0 bg-neutral-900 text-white py-4 w-full max-w-96 mx-auto mt-3 rounded-full"
+  class="fixed top-0 left-0 right-0 bg-neutral-900 text-white py-4 w-full max-w-96 mx-auto mt-3 rounded-full z-10"
 >
   <style>
     nav ul {

@@ -109,7 +109,7 @@
 </script>
 
 <section
-  class="py-10 px-4 text-center flex flex-col items-center w-full"
+  class="pt-20 px-4 text-center flex flex-col items-center w-full"
   id="skills"
 >
   <h1 class="text-4xl font-bold mb-10">Skills</h1>
@@ -148,7 +148,7 @@
       <!-- Description of selected skill goes here -->
       {#if description}
         <p
-          class="text-left font-light"
+          class="text-left font-light text-xl"
           in:fade={{ duration: 300 }}
           out:fade={{ duration: 300 }}
         >
