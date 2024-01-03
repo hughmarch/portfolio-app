@@ -12,7 +12,7 @@
 <main>
   <Navbar />
   <Header />
+  <Projects />
   <Skills />
   <Experience />
-  <Projects />
 </main>

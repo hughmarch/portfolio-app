@@ -7,7 +7,7 @@
 
   onMount(() => {
     const handleScroll = () => {
-      const sections = ["header", "skills", "projects", "experience"]; // Add other section IDs here
+      const sections = ["header", "projects", "skills", "experience"]; // Add other section IDs here
       const scrollPosition = window.scrollY;
 
       sections.forEach((section) => {
@@ -95,6 +95,13 @@
     <li>
       <a
         href="#"
+        on:click|preventDefault={() => scrollToSection("projects")}
+        class:active={activeSection === "projects"}>Projects</a
+      >
+    </li>
+    <li>
+      <a
+        href="#"
         on:click|preventDefault={() => scrollToSection("skills")}
         class:active={activeSection === "skills"}>Skills</a
       >
@@ -104,13 +111,6 @@
         href="#"
         on:click|preventDefault={() => scrollToSection("experience")}
         class:active={activeSection === "experience"}>Experience</a
-      >
-    </li>
-    <li>
-      <a
-        href="#"
-        on:click|preventDefault={() => scrollToSection("projects")}
-        class:active={activeSection === "projects"}>Projects</a
       >
     </li>
   </ul>

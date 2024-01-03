@@ -125,8 +125,8 @@
             <button
               class="bg-gray-700 p-2 text-white inline-flex items-center space-x-2 rounded hover:border-none border-none transition-colors duration-300 mr-2 mb-2 {skill.name ===
               selectedSkill.name
-                ? 'bg-gray-400'
-                : 'hover:bg-gray-500'}"
+                ? 'bg-gray-500'
+                : 'hover:bg-gray-600'}"
               on:click={() => onClick(skill)}
             >
               <p>{skill.name}</p>
