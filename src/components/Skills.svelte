@@ -11,7 +11,7 @@
         },
         {
           name: "Python",
-          description: "Python has been my go-to language as an undergraduate research assistant at the Posner Research Group, where I focused on processing experimental data and crafting computer vision and machine learning algorithms. My Python skills were instrumental in developing a mobile app for HIV viral load monitoring, and in enhancing a machine learning algorithm to boost HIV viral load quantification's dynamic range by 30x.",
+          description: "Python has been my go-to language as an undergraduate research assistant at the Posner Research Group, where I focused on processing experimental data and crafting computer vision and machine learning algorithms. My Python skills were instrumental in developing a mobile app for HIV viral load monitoring, and in training a machine learning algorithm to boost HIV viral load quantification's dynamic range by 30x.",
         },
         {
           name: "JavaScript",
@@ -45,7 +45,7 @@
         {
           name: "React",
           description:
-            "My first experience with React was making a Wordle clone called Hardl. Since then, I have used React in hackathon projects and during my internship at Xemelgo, where I worked on front-end web development.",
+            "My first experience with React was making a Wordle clone called Hardl. Since then, I have used React in hackathon projects and for front-end web development at Xemelgo.",
         },
         {
           name: "Amazon Web Services (AWS)",
@@ -67,7 +67,7 @@
         },
         {
           name: "Git",
-          description: "I use Git for personal projects, hackathons, and during my internship at Xemelgo.",
+          description: "I'v used Git for personal projects, hackathons, and during my internship at Xemelgo.",
         },
         {
           name: "Agile Software Development",
@@ -97,7 +97,7 @@
     description: "",
   };
 
-  let description = "Select a skill to see how I've worked with it!";
+  let description = "Click on a skill to see how I've worked with it!";
 
   const onClick = (skill) => {
     description = ""; // Fade out the current description

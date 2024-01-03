@@ -77,20 +77,23 @@
       <p class="text-left mb-3">
         Currently pursuing a <span class="font-bold"
           >B.S. in Computer Science</span
-        > at the <span class="font-bold"
-        >University of Washington</span>, I've dived into coursework spanning algorithms,
-        datacenter systems, computer vision, and more.
+        >
+        at the <span class="font-bold">University of Washington</span>, I've
+        dived into coursework spanning algorithms, datacenter systems, computer
+        vision, and more.
       </p>
       <p class="text-left mb-3">
         My journey in tech has been diverse, from optimizing sensor pipelines
         and <span class="font-bold"
-        >revolutionizing manufacturing processes at Xemelgo</span> to developing
-        groundbreaking solutions like an app for <span class="font-bold"
-        >monitoring HIV viral load</span> with
-        accuracy matching high-end microscopes. I've also worked as a <span
-          class="font-bold">CSE12x Teaching Assistant</span
-        > (Java Programming), where I taught data structures and algorithms concepts
-        to sections of 20 students.
+          >revolutionizing manufacturing processes at Xemelgo</span
+        >
+        to developing groundbreaking solutions like an app for
+        <span class="font-bold">monitoring HIV viral load</span>
+        with accuracy matching high-end microscopes. In addition to technical
+        projects and internships, I've also worked as a
+        <span class="font-bold">CSE12x Teaching Assistant</span> (Java Programming),
+        teaching data structures and algorithms concepts to sections of 20
+        students.
       </p>
       <p class="text-left mb-3">
         I am interested in distributed systems, cloud computing, full-stack
