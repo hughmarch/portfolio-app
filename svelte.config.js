@@ -1,7 +1,12 @@
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 export default {
-  // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
-  // for more information about preprocessors
-  preprocess: [vitePreprocess({})],
+  preprocess: vitePreprocess(),
+  kit: {
+    // Adjust the paths.base property
+    paths: {
+      base: '/portfolio-app/',
+    },
+    // other configuration settings
+  },
 };
